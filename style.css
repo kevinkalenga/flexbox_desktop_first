@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.contenair{
+    height:100vh;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+}
+
+header{
+    background-color: green;
+    padding:20px;
+    
+    
+}
+.content{
+    background-color: purple;
+    
+}
+aside{
+    background-color: brown;
+    
+}
+footer{
+    background-color: blue;
+    padding: 20px;
+    
+}
+.menu{
+    display: flex;
+}
+.content{
+    flex:3;
+    padding-bottom:550px;
+}
+
+aside{
+    flex:1;
+}
+@media screen and (max-width:800px){
+    .menu{
+        flex-direction: column;
+        height:85.7vh;
+    }
+}
+
+
